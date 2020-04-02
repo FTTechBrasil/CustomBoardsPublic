@@ -1,2 +1,2 @@
-# CustomBoardsPublic
- All of the files need to use with arduino
+# CustomBoards
+ New Boards to run with Arduino IDE
