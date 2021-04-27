@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "FTTech SAMD Boards (32-bit ARM Cortex-M0+) - (dependency: Arduino SAMD Boards 1.8.1)",
+          "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.1)",
           "architecture": "samd",
           "version": "0.1.0",
           "category": "Contributed",
@@ -63,7 +63,7 @@
           ]
 	},
         {
-          "name": "FTTech SAMD Boards (32-bit ARM Cortex-M0+) - (dependency: Arduino SAMD Boards 1.8.11)",
+          "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
@@ -116,7 +116,7 @@
           ]
 	},
         {
-          "name": "FTTech SAMD Boards (32-bit ARM Cortex-M0+) - (dependency: Arduino SAMD Boards 1.8.11)",
+          "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "1.0.1",
           "category": "Contributed",
@@ -124,6 +124,59 @@
           "archiveFileName": "FTTech-1.0.1.zip",
           "checksum": "SHA-256:4d4dbdc5bffb4a9088c8f4087b4bcc68df5560f24a92c1d16ac47f7c6f2ae5cf",
           "size": "2903036",
+          "help": {
+            "online": "https://FTTech.com.br"
+          },
+          "boards": [
+            { "name": "FTTech SAMD51 Click" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+	},
+        {
+          "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
+          "architecture": "samd",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/blob/master/Boards_IndexFile/FTTech-1.0.2.zip?raw=true",
+          "archiveFileName": "FTTech-1.0.2.zip",
+          "checksum": "SHA-256:72F144180D8241CE4CAF5C14120981929DC749C18D9D25E89D2E9B854FE58C8B",
+          "size": "2903037",
           "help": {
             "online": "https://FTTech.com.br"
           },
