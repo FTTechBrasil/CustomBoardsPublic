@@ -422,7 +422,7 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "adafruit",
+              "packager": "FTTech",
               "name": "arm-none-eabi-gcc",
               "version": "9-2019q4"
             },
@@ -442,7 +442,7 @@
               "version": "0.10.0-arduino7"
             },
             {
-              "packager": "adafruit",
+              "packager": "FTTech",
               "name": "CMSIS",
               "version": "5.4.0"
             },
