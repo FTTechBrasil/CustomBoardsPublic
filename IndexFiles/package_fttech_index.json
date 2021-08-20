@@ -457,6 +457,64 @@
               "version": "1.2.1"
             }
           ]
+        },
+	{
+          "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
+          "architecture": "samd",
+          "version": "1.2.1",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/blob/master/Boards_IndexFile/FTTech-1.2.1.zip?raw=true",
+          "archiveFileName": "FTTech-1.2.1.zip",
+          "checksum": "SHA-256:65F28D618A07BCD59722479E12EAF6A6BE25BE9BFCE7C0C4D0FC714EF89BA8BD",
+          "size": "1681513",
+          "help": {
+            "online": "https://www.FTTech.com.br"
+          },
+          "boards": [
+            {
+              "name": "FTTech SmartNode 3S (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "FTTech",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "FTTech",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ],
       "tools": [
