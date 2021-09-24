@@ -535,12 +535,12 @@
             {
               "name": "FTTech SmartNode 1S (SAMD51)"
             },
-			{
-			  "name": "FTTech SmartNode Swarm (SAMD51)"
-			},
-			{
-			  "name": "FTTech SmartNode 1S (SAMD51) Old"
-			}
+            {
+              "name": "FTTech SmartNode Swarm (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51) Old"
+            }
           ],
           "toolsDependencies": [
             {
