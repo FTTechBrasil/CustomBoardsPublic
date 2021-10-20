@@ -707,6 +707,70 @@
               "version": "1.2.1"
             }
           ]
+        },
+        {
+          "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
+          "architecture": "samd",
+          "version": "2.0.3",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/blob/master/IndexFiles/FTTech-2.0.3.zip?raw=true",
+          "archiveFileName": "FTTech-2.0.3.zip",
+          "checksum": "SHA-256:D7FD14F0D4F75C1AE6592A738240CE71AFF074EE84C48509C95DC6FA1F27E72B",
+          "size": "2063925",
+          "help": {
+            "online": "https://www.FTTech.com.br"
+          },
+          "boards": [
+            {
+              "name": "FTTech SmartNode 3S (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode Swarm (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51) Old"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "FTTech",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "FTTech",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ],
       "tools": [
