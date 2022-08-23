@@ -900,15 +900,15 @@
             }
           ]
         },
-	{
+		{
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "2.1.0",
           "category": "Contributed",
           "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/blob/master/IndexFiles/FTTech-2.1.0.zip?raw=true",
           "archiveFileName": "FTTech-2.1.0.zip",
-          "checksum": "SHA-256:30313D67C29965E12545B0A9CC75EBE6CCC3CCEB0A7A45C217F67C92E1EC4888",
-          "size": "3351289",
+          "checksum": "SHA-256:EEC5955507CC4DC07515851102A92929901F8CCDF645D2DE65A851DB87CB45B3",
+          "size": "3351298",
           "help": {
             "online": "https://www.FTTech.com.br"
           },
@@ -918,7 +918,7 @@
             },
             {
               "name": "FTTech SmartNode 3S V8 (SAMD51)"
-	    },
+			},
             {
               "name": "FTTech SmartNode 1S (SAMD51)"
             },
@@ -965,7 +965,8 @@
               "name": "arduinoOTA",
               "version": "1.2.1"
             }
-      ],
+		  ]
+		}
       "tools": [
         {
           "name": "arm-none-eabi-gcc",
