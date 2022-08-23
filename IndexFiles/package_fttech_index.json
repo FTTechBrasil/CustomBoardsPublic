@@ -771,9 +771,6 @@
               "version": "1.2.1"
             }
           ]
-<<<<<<< Updated upstream
-        }
-=======
         },
         {
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
@@ -903,7 +900,7 @@
             }
           ]
         },
-	{
+		{
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "2.1.0",
@@ -921,7 +918,7 @@
             },
             {
               "name": "FTTech SmartNode 3S V8 (SAMD51)"
-	    },
+			},
             {
               "name": "FTTech SmartNode 1S (SAMD51)"
             },
@@ -968,8 +965,8 @@
               "name": "arduinoOTA",
               "version": "1.2.1"
             }
->>>>>>> Stashed changes
-      ],
+		  ]
+		}
       "tools": [
         {
           "name": "arm-none-eabi-gcc",
