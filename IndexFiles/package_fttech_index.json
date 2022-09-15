@@ -516,7 +516,7 @@
             }
           ]
         },
-		    {
+		{
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "2.0.0",
@@ -967,6 +967,7 @@
             }
 		  ]
 		}
+	  ],
       "tools": [
         {
           "name": "arm-none-eabi-gcc",
