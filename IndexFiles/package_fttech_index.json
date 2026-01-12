@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "FTTech",
-      "maintainer": "FTTech - Soluções em Tecnologia",
+      "maintainer": "FTTech - Solu\u00e7\u00f5es em Tecnologia",
       "websiteURL": "https://FTTech.com.br",
       "email": "contato@FTTech.com",
       "help": {
@@ -458,7 +458,7 @@
             }
           ]
         },
-		    {
+        {
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "1.2.1",
@@ -516,7 +516,7 @@
             }
           ]
         },
-		{
+        {
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "2.0.0",
@@ -900,7 +900,7 @@
             }
           ]
         },
-	{
+        {
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.11)",
           "architecture": "samd",
           "version": "2.1.0",
@@ -918,7 +918,7 @@
             },
             {
               "name": "FTTech SmartNode 3S V8 (SAMD51)"
-			},
+            },
             {
               "name": "FTTech SmartNode 1S (SAMD51)"
             },
@@ -965,9 +965,67 @@
               "name": "arduinoOTA",
               "version": "1.2.1"
             }
-	  ]
-	}
-	],
+          ]
+        },
+        {
+          "name": "FTTech SAMD Boards",
+          "architecture": "samd",
+          "version": "3.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/blob/master/IndexFiles/FTTech-3.0.0.zip?raw=true",
+          "archiveFileName": "FTTech-3.0.0.zip",
+          "checksum": "SHA-256:c27218b9a855417751464ff54b479297b21833f78251d60d1563dd5ca870e66e",
+          "size": "2574060",
+          "help": {
+            "online": "https://www.FTTech.com.br"
+          },
+          "boards": [
+            {
+              "name": "FTTech SmartNode 3S (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "FTTech",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "FTTech",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
       "tools": [
         {
           "name": "arm-none-eabi-gcc",
