@@ -981,10 +981,19 @@
           },
           "boards": [
             {
-              "name": "FTTech SmartNode 3S (SAMD51)"
+              "name": "FTTech SmartNode 3S V9 (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 3S V8 (SAMD51)"
             },
             {
               "name": "FTTech SmartNode 1S (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode Swarm (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51) V0"
             }
           ],
           "toolsDependencies": [
