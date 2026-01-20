@@ -972,7 +972,7 @@
           "architecture": "samd",
           "version": "3.0.0",
           "category": "Contributed",
-          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/blob/master/IndexFiles/FTTech-3.0.0.zip?raw=true",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/releases/download/v3.0.0/FTTech-3.0.0.zip",
           "archiveFileName": "FTTech-3.0.0.zip",
           "checksum": "SHA-256:734a02abe1bbf97a6673b050b04820e56bfd7805718e3ecec829300a334800a4",
           "size": "2543811",
