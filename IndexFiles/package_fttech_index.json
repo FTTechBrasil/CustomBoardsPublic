@@ -1054,13 +1054,13 @@
           "toolsDependencies": [
             {
               "packager": "esp32",
-              "name": "xtensa-esp-x32-elf-gcc",
-              "version": "13.2.0-20240530"
+              "name": "esp-x32",
+              "version": "13.2.0+20230928"
             },
             {
               "packager": "esp32",
-              "name": "riscv32-esp-elf-gcc",
-              "version": "13.2.0-20240530"
+              "name": "esp-rv32",
+              "version": "13.2.0+20230928"
             },
             {
               "packager": "esp32",
