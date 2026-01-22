@@ -1054,23 +1054,33 @@
           "toolsDependencies": [
             {
               "packager": "esp32",
+              "name": "esp32-arduino-libs",
+              "version": "idf-release_v5.5-9bb7aa84-v2"
+            },
+            {
+              "packager": "esp32",
               "name": "esp-x32",
-              "version": "13.2.0+20230928"
+              "version": "2511"
             },
             {
               "packager": "esp32",
               "name": "esp-rv32",
-              "version": "13.2.0+20230928"
-            },
-            {
-              "packager": "esp32",
-              "name": "esp32-arduino-libs",
-              "version": "idf-release_v5.1-40be60cb"
+              "version": "2511"
             },
             {
               "packager": "esp32",
               "name": "esptool_py",
-              "version": "4.8.1"
+              "version": "5.1.0"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "4.0.2-db0513a"
             }
           ]
         }
