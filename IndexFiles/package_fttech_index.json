@@ -1033,6 +1033,41 @@
               "version": "1.2.1"
             }
           ]
+        },
+        {
+          "name": "FTTech ESP32 Boards",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/blob/master/IndexFiles/FTTech-ESP32-1.0.0.zip?raw=true",
+          "archiveFileName": "FTTech-ESP32-1.0.0.zip",
+          "checksum": "SHA-256:43e0789113f9a08a256d9307e197139274237b85b5fea4fa762516cecb1d6df0",
+          "size": "7138",
+          "help": {
+            "online": "https://www.FTTech.com.br"
+          },
+          "boards": [
+            {
+              "name": "FTTech SmartNode 1S S3 (N8R8)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp-x32-elf-gcc",
+              "version": "13.2.0-20240530"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "4.8.1"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32-arduino-libs",
+              "version": "idf-release_v5.1-40be60cb"
+            }
+          ]
         }
       ],
       "tools": [
