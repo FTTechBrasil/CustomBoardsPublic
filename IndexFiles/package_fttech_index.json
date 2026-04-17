@@ -10,6 +10,73 @@
       },
       "platforms": [
         {
+          "name": "FTTech SAMD Boards",
+          "architecture": "samd",
+          "version": "3.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/releases/download/v3.0.1/FTTech-3.0.1.zip",
+          "archiveFileName": "FTTech-3.0.1.zip",
+          "checksum": "SHA-256:119900dec0e3beb796ea2a3c5fe9ee3934adfc92272b4f3c66ea08356e4aa8a2",
+          "size": "3446108",
+          "help": {
+            "online": "https://www.FTTech.com.br"
+          },
+          "boards": [
+            {
+              "name": "FTTech SmartNode 3S V9 (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 3S V8 (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode Swarm (SAMD51)"
+            },
+            {
+              "name": "FTTech SmartNode 1S (SAMD51) V0"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "FTTech",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "FTTech",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
           "name": "FTTech SAMD Boards - (dependency: Arduino SAMD Boards 1.8.1)",
           "architecture": "samd",
           "version": "0.1.0",
