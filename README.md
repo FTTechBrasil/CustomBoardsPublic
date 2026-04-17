@@ -40,8 +40,8 @@ Official hardware package for **FTTech** SAMD51-based boards. Designed for high-
 | **Serial2 RX/TX** | D9 / D16 | PA07 / PA04 | Click 4 |
 | **Serial3 RX/TX** | D41 / D42 | PB30 / PB31 | Click 3 |
 | **Serial4 RX/TX** | D13 / D11 | PA17 / PA16 | Click 1 |
-| **I2C SDA / SCL** | D23 / D24 | PA22 / PA23 | |
-| **SPI MISO/MOSI/SCK** | D25/D26/D27 | PB11/PB12/PB13 | |
+| **I2C SDA / SCL** | D23 / D24 | PA22 / PA23 | Main Bus |
+| **SPI MISO/MOSI/SCK** | D25/D26/D27 | PB11/PB12/PB13 | Main Bus |
 | **CLICK_ONE PWR** | D43 | PA21 | Power Control |
 | **CLICK_TWO PWR** | D49 | PB16 | Power Control |
 | **CLICK_THREE PWR**| D50 | PB17 | Power Control |
@@ -54,7 +54,14 @@ Official hardware package for **FTTech** SAMD51-based boards. Designed for high-
 | **Serial1 RX/TX** | D13 / D7 | PA17 / PA16 | Click 1 |
 | **Serial2 RX/TX** | D0 / D1 | PA13 / PA12 | Click 2 |
 | **Serial3 RX/TX** | D9 / D10 | PB30 / PB31 | Click 3 |
-| **Serial4 RX/TX** | D5 / A3(26) | PA07 / PA04 | Click 4 |
+| **Serial4 RX/TX** | D5 / D26(A3) | PA07 / PA04 | Click 4 |
+| **I2C SDA / SCL** | D37 / D38 | PA22 / PA23 | Main Bus |
+| **SPI MISO/MOSI/SCK** | D39/D40/D41 | PB11/PB12/PB13 | Main Bus |
+| **CLICK_ONE PWR** | D11 | PA21 | Power Control |
+| **CLICK_TWO PWR** | D18 | PB16 | Power Control |
+| **CLICK_THREE PWR**| D19 | PB17 | Power Control |
+| **CLICK_FOUR PWR** | D21 | PB22 | Power Control |
+| **POWER_5V (All)** | D14 | PB07 | Master Click Power |
 | **WUSB Pin** | D48 | PA27 | Special Function |
 
 ---
