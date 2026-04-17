@@ -2,75 +2,73 @@
 
 ![Arduino IDE Support](https://img.shields.io/badge/Arduino-IDE%20Support-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-SAMD51%20(Cortex--M4F)-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/Release-v3.0.1-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-This repository contains the official **FTTech** hardware package for boards based on the SAMD51 (Cortex-M4F) microcontroller. Designed for industrial applications and high-performance IoT, this SDK provides full support for the Arduino ecosystem.
+Official hardware package for **FTTech** SAMD51-based boards. Designed for high-performance industrial IoT and mission-critical applications.
 
 ---
 
 ## 🚀 Supported Boards
 
-### SmartNode 3S Family
-*   **SmartNode 3S V9:** Industrial flagship featuring the SAMD51J20A.
-*   **SmartNode 3S V8:** Robust version for process control.
-*   **SmartNode 3S V1/V0:** Legacy versions with continuous support.
+### SmartNode 3S Family (SAMD51J20A)
+*   **SmartNode 3S V9:** The latest industrial flagship.
+*   **SmartNode 3S V8:** Enhanced process control version.
+*   **SmartNode 3S V1/V0:** Legacy versions with full support.
 
-### SmartNode 1S Family
-*   **SmartNode 1S:** Compact and efficient for remote sensing.
-*   **SmartNode Swarm:** Special edition optimized for mesh networks and low power consumption.
+### SmartNode 1S Family (SAMD51G18A)
+*   **SmartNode 1S:** Compact sensing node.
+*   **SmartNode Swarm:** Optimized for mesh networks.
 
 ---
 
-## 🛠️ Installation (Arduino IDE)
+## ✨ Release 3.0.1 Highlights (Bugfix)
 
-To use FTTech boards in your development environment, follow the steps below:
+*   **Surgical Pin Mapping:** Fixed critical pin assignment inconsistencies for the SmartNode 3S family.
+*   **V8 Restoration:** Expanded GPIO access up to **D53**, fully mapping Click 1-4 power controls and high-speed Serial pads.
+*   **V9 Enhancements:** Added native mapping for 32kHz Crystal, JTAG/SWD debug pins, and the dedicated `WUSB` pin.
+*   **Conflict Resolution:** Fixed Click 1 Power overlap with USB pins in V8 variant.
 
-1.  Open the **Arduino IDE**.
-2.  Go to **File > Preferences**.
-3.  In the **Additional Boards Manager URLs** field, paste the following URL:
+---
+
+## 📍 Pin Assignment Reference (SmartNode 3S)
+
+### SmartNode 3S V8 (Old)
+| Function | Arduino Pin | Port | Notes |
+| :--- | :--- | :--- | :--- |
+| **Serial1 RX/TX** | D0 / D1 | PA13 / PA12 | Click 2 |
+| **Serial2 RX/TX** | D9 / D16 | PA07 / PA04 | Click 4 |
+| **Serial3 RX/TX** | D41 / D42 | PB30 / PB31 | Click 3 |
+| **Serial4 RX/TX** | D13 / D11 | PA17 / PA16 | Click 1 |
+| **I2C SDA / SCL** | D23 / D24 | PA22 / PA23 | |
+| **SPI MISO/MOSI/SCK** | D25/D26/D27 | PB11/PB12/PB13 | |
+| **CLICK_ONE PWR** | D43 | PA21 | Power Control |
+| **CLICK_TWO PWR** | D49 | PB16 | Power Control |
+| **CLICK_THREE PWR**| D50 | PB17 | Power Control |
+| **CLICK_FOUR PWR** | D52 | PB22 | Power Control |
+| **POWER_5V (All)** | D45 | PB07 | Master Click Power |
+
+### SmartNode 3S V9 (New)
+| Function | Arduino Pin | Port | Notes |
+| :--- | :--- | :--- | :--- |
+| **Serial1 RX/TX** | D13 / D7 | PA17 / PA16 | Click 1 |
+| **Serial2 RX/TX** | D0 / D1 | PA13 / PA12 | Click 2 |
+| **Serial3 RX/TX** | D9 / D10 | PB30 / PB31 | Click 3 |
+| **Serial4 RX/TX** | D5 / A3(26) | PA07 / PA04 | Click 4 |
+| **WUSB Pin** | D48 | PA27 | Special Function |
+
+---
+
+## 🛠️ Installation
+
+1.  Add the following URL to your **Additional Boards Manager URLs**:
     ```text
     https://raw.githubusercontent.com/FTTechBrasil/CustomBoardsPublic/master/IndexFiles/package_fttech_index.json
     ```
-4.  Go to **Tools > Board > Boards Manager**.
-5.  Search for **"FTTech"** and click **Install**.
-
----
-
-## ✨ Version 3.0.0 Highlights
-
-*   **Optimized Architecture:** Lightweight package with automatic tool dependency management.
-*   **Industrial-Grade Documentation:** Variants documented using Doxygen standards.
-*   **High Performance:** Native support for overclocking (up to 200MHz) and Instruction Cache.
-*   **Modern Bootloader:** Supports **UF2** (drag-and-drop) updates and corrected status LED pinouts.
-*   **USB Stacks:** Choose between the standard Arduino stack or **Adafruit TinyUSB**.
-
----
-
-## 📋 Technical Specifications (SAMD51)
-
-| Feature | Specification |
-| :--- | :--- |
-| **Core** | ARM Cortex-M4F with FPU (Floating Point Unit) |
-| **Clock** | 120 MHz (Native) up to 200 MHz (Configurable) |
-| **Flash** | Up to 1 MB |
-| **SRAM** | Up to 256 KB |
-| **Interfaces** | SERCOM (UART, SPI, I2C), QSPI, ADC, DAC, PWM |
-| **Operating Voltage** | 3.3V |
-
----
-
-## 🔧 Support and Development
-
-If you encounter any issues or have suggestions for improvement:
-
-1.  Check the [Official Documentation](https://www.fttech.com.br).
-2.  Open an **Issue** in this repository.
-3.  Contact us at [contato@fttech.com.br](mailto:contato@fttech.com.br).
+2.  Search for **FTTech** in the Boards Manager and install.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the `LICENSE` file (if available) or file headers for more details.
-
-Copyright © 2026 **FTTech - Soluções em Tecnologia**. All rights reserved.
+MIT License. Copyright © 2026 **FTTech - Soluções em Tecnologia**.
