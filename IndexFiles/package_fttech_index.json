@@ -14,10 +14,10 @@
           "architecture": "samd",
           "version": "3.0.1",
           "category": "Contributed",
-          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/releases/download/v3.0.1/FTTech-3.0.1_STABLE.zip",
-          "archiveFileName": "FTTech-3.0.1_STABLE.zip",
-          "checksum": "SHA-256:d0c5541ba36c3e0ec7c96839e61599e1c759a3de37114cf65cb9c8910c6bd022",
-          "size": "4568323",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/releases/download/v3.0.1/FTTech-3.0.1_PROFESSIONAL.zip",
+          "archiveFileName": "FTTech-3.0.1_PROFESSIONAL.zip",
+          "checksum": "SHA-256:229a6a95071011058e09ee331270383d27006d124696bb5697533057c58832aa",
+          "size": "4568605",
           "help": {
             "online": "https://www.FTTech.com.br"
           },
