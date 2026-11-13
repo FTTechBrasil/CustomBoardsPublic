@@ -1115,6 +1115,56 @@
           },
           "boards": [
             {
+              "name": "FTTech SmartNode 1S S3 (N8R2)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "name": "esp32-arduino-libs",
+              "version": "idf-release_v5.5-9bb7aa84-v2"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-x32",
+              "version": "2511"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp-rv32",
+              "version": "2511"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "5.1.0"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "4.0.2-db0513a"
+            }
+          ]
+        },
+        {
+          "name": "FTTech ESP32 Boards",
+          "architecture": "esp32",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/releases/download/esp32-v1.0.1/FTTech-ESP32-1.0.1.zip",
+          "archiveFileName": "FTTech-ESP32-1.0.1.zip",
+          "checksum": "SHA-256:4fc988a00720eacd5defdf9cdffe14a36673435d61509b7148b3fdcd4efe10c8",
+          "size": "27504",
+          "help": {
+            "online": "https://www.FTTech.com.br"
+          },
+          "boards": [
+            {
               "name": "FTTech SmartNode 1S S3 (N8R8)"
             }
           ],
