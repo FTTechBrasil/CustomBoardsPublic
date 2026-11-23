@@ -1102,7 +1102,7 @@
           ]
         },
         {
-          "name": "FTTech ESP32 Boards",
+          "name": "FTTech ESP32 Boards (requer esp32 3.3.5)",
           "architecture": "esp32",
           "version": "1.0.0",
           "category": "Contributed",
@@ -1152,7 +1152,7 @@
           ]
         },
         {
-          "name": "FTTech ESP32 Boards",
+          "name": "FTTech ESP32 Boards (requer esp32 3.3.5)",
           "architecture": "esp32",
           "version": "1.0.1",
           "category": "Contributed",
@@ -1165,7 +1165,7 @@
           },
           "boards": [
             {
-              "name": "FTTech SmartNode 1S S3 (N8R8)"
+              "name": "FTTech SmartNode 1S S3 (N8R2)"
             }
           ],
           "toolsDependencies": [
@@ -1198,6 +1198,61 @@
               "packager": "esp32",
               "name": "mklittlefs",
               "version": "4.0.2-db0513a"
+            }
+          ]
+        },
+        {
+          "name": "FTTech ESP32 Boards (requer esp32 4.0.0)",
+          "architecture": "esp32",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://github.com/FTTechBrasil/CustomBoardsPublic/releases/download/esp32-v1.0.2/FTTech-ESP32-1.0.2.zip",
+          "archiveFileName": "FTTech-ESP32-1.0.2.zip",
+          "checksum": "SHA-256:5d79f6c951d88359ebe5ad4b907cf564c24948e1bf7fc8ee2099bc606c361507",
+          "size": "206041",
+          "help": {
+            "online": "https://www.FTTech.com.br"
+          },
+          "boards": [
+            {
+              "name": "FTTech SmartNode 1S S3 (N8R2)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "name": "esp-x32",
+              "version": "2512"
+            },
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "17.1_20260402"
+            },
+            {
+              "packager": "esp32",
+              "name": "openocd-esp32",
+              "version": "v0.12.0-esp32-20260831"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "5.3.1"
+            },
+            {
+              "packager": "esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "esp32",
+              "name": "mklittlefs",
+              "version": "4.0.2-db0513a"
+            },
+            {
+              "packager": "esp32",
+              "name": "esp32s3-libs",
+              "version": "4.0.0"
             }
           ]
         }
